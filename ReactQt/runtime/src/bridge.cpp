@@ -39,6 +39,7 @@
 #include "deviceinfo.h"
 #include "eventdispatcher.h"
 #include "exceptionsmanager.h"
+#include "gesturehandlermodule.h"
 #include "linkingmanager.h"
 #include "moduledata.h"
 #include "moduleinterface.h"
@@ -105,6 +106,7 @@ public:
                            new LinkingManager,
                            new Alert,
                            new DeviceInfo,
+                           new GestureHandlerModule,
                            new Platform,
                            new BlobProvider,
                            new ViewManager,

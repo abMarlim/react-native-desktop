@@ -111,6 +111,7 @@ set(
   blobprovider.cpp
   bridge.cpp
   deviceinfo.cpp
+  gesturehandlermodule.cpp
   platform.cpp
   eventdispatcher.cpp
   sourcecode.cpp
