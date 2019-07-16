@@ -53,3 +53,12 @@ QVariantMap GestureHandlerModule::constantsToExport() {
 
     return QVariantMap{{"Direction", directionValues}};
 }
+
+void GestureHandlerModule::handleSetJSResponder(int viewTag, void* blockNativeResponder) {}
+
+void GestureHandlerModule::handleClearJSResponder() {}
+
+void GestureHandlerModule::createGestureHandler(const QString& handlerName, int handlerTag, void* config) {}
+void GestureHandlerModule::attachGestureHandler(int handlerTag, int viewTag) {}
+void GestureHandlerModule::updateGestureHandler(int handlerTag, void* config) {}
+void GestureHandlerModule::dropGestureHandler(int handlerTag) {}
